@@ -24,9 +24,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/ngf-bootstrap/dist/bootstrap.min.css",
+              "node_modules/toastr/build/toastr.min.css"
+            
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "node_modules/toastr/build/toastr.min.js"           
+            ]
           },
           "configurations": {
             "production": {

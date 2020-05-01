@@ -1,0 +1,13 @@
+<div class=" container-fluid py-2 h-100">
+    <div class=" ">
+        <div>
+            <h1>Upcoming Angular Events</h1>
+            <hr />
+            <div class="row">
+                <div *ngFor="let event of events" class="col-md-4">
+                    <app-event-thumbnail   [event]='event'></app-event-thumbnail>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
