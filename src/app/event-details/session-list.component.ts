@@ -9,7 +9,7 @@ import {VoterService} from './voter.service';
 })
 
 export class SessionListComponent implements OnChanges{
-    constructor(private auth: AuthService,
+    constructor(public auth: AuthService,
                 private voterService: VoterService) {}
     @Input() sessions: ISession[];
     @Input() filterby: string;
